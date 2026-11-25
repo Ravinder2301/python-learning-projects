@@ -1,0 +1,19 @@
+[project]
+name = "whatsapp-automate"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ravinder2301", email = "rav23inder@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pywhatkit>=5.4",
+]
+
+[project.scripts]
+whatsapp-automate = "whatsapp_automate:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
