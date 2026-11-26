@@ -1,0 +1,19 @@
+[project]
+name = "snake-game"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ravinder2301", email = "rav23inder@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pygame>=2.6.1",
+]
+
+[project.scripts]
+snake-game = "snake_game:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
